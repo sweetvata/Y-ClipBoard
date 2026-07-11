@@ -1,27 +1,12 @@
 # Y-ClipBoard — история буфера обмена Windows одной командой
 
-Скрипт показывает историю буфера обмена Windows (ту, что открывается по `Win+V`).
-Кладёшь его на GitHub — и запускаешь одной строкой из CMD/PowerShell, ничего
-устанавливать не надо.
-
-## Как запустить (после того как положишь на GitHub)
 
 В CMD или PowerShell:
 
 ```
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/USER/REPO/main/Y-ClipBoard.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://github.com/sweetvata/Y-ClipBoard/releases/download/Y-ClipBoard_1.0/Y-ClipBoard.ps1 | iex"
 ```
 
-Замени `USER/REPO` на свои имя пользователя и название репозитория.
-`irm` скачивает скрипт, `iex` его выполняет.
-
-## Как выложить на GitHub (один раз)
-
-1. Создай репозиторий на github.com (например `Y-ClipBoard`), публичный.
-2. Загрузи туда файл `Y-ClipBoard.ps1` (кнопка **Add file → Upload files**).
-3. Открой файл в репозитории, нажми кнопку **Raw** — скопируй ссылку из адресной строки
-   вида `https://raw.githubusercontent.com/USER/REPO/main/Y-ClipBoard.ps1`.
-4. Подставь эту ссылку в команду выше.
 
 ## Что делает скрипт
 
